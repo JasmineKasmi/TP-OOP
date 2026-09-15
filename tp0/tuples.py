@@ -14,12 +14,12 @@ assert afficher_releves(releve1) == "Capteur vision supersonic : 3.44 deg"
 afficher_releves(releve1) #quand je fait cet affichage j'ai le bon resultat mais le assert ne fonctionne pas
 
 
-def recalibrer(list,capteur,val):
+def recalibrer(tuple,capteur,val):
 
-    for i in range(len(list)):
-        if list[i][0]==capteur:
-            list[i]=(list[i][0],val,list[i][2])
-            return list
+    for i in range(len(tuple)):
+        if tuple[i][0]==capteur:
+            tuple[i]=(tuple[i][0],val,tuple[i][2])
+            return tuple
 
 nouveaux_releves=recalibrer(releves,"vision supersonic",7.77)
 assert nouveaux_releves[0] == ("vision supersonic", 7.77, "deg")
