@@ -49,4 +49,6 @@ if __name__ == '__main__':
     unittest.main()
 
 #suite question 3: tout passe c'est marqué OK, je n'ai pensé à aucun d'entre eux ?
-
+#question 4: le readme peut se voir sur le repo github
+#question 5:le commit est un tout petit peut moins précis que ce que j'aurais fait
+#question 6: les remarques sur les fonctions reste l'usage le plus fiable de copilot sur github, en effet il peut penser à tous les cas limite de l'utilisation de la fonction, et connait les bonnes pratiques du code en python, ce qui est utile pour un programmeur inexpérimenté.
