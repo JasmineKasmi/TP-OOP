@@ -6,7 +6,7 @@ releves=[releve1,releve2,releve3]
 
 def afficher_releves(tuples):
     a,b,c=tuples
-    print(f"Capteur {a} : {b} {c}")
+    return f"Capteur {a} : {b} {c}"
 
 assert len(releves) == 3
 assert releves[0][0] == "vision supersonic"
