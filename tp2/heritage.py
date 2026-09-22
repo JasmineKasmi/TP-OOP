@@ -60,7 +60,7 @@ class Adulte(Habitant):
     def __init__(self, nom, prenom, age, adresse):
         super().__init__(nom, prenom, age, adresse)
         if self.age < 18:
-            ValueError("L'adulte doit avoir au moins 18 ans.")
+            raise ValueError("L'adulte doit avoir au moins 18 ans.")
         
 
     def calcul_nombre_annee_avant_retraite(self):
