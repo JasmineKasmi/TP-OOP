@@ -38,3 +38,5 @@ autre_village = Village("VillageVoisin")
 autre_village.ajouter_habitant_aggregation(elise) # meme habitant dans 2 villages
 assert len(pytown.get_habitants()) == 2
 assert elise in autre_village.get_habitants()
+#La composition correspond à ajouter_habitant_composition car le village crée directement le nouvel habitant.
+#L’agrégation correspond à ajouter_habitant_aggregation car le village reçoit un habitant qui existe déjà et peut donc être associé à plusieurs villages.
