@@ -87,5 +87,5 @@ enfant = Enfant("Martin", "Lucas", 12, "Rue B")
 affichage(adulte)
 affichage(enfant)
 
-#Rendre alcul_nombre_annee_avant_retraite abstraite oblige chaque classe fille, comme Adulte ou Enfant, à définir sa propre version de la méthode, ce qui garantit que l'appel polymorphique dans affichage utilise toujours une méthode adaptée au type réel de l'objet.
+#Rendre calcul_nombre_annee_avant_retraite abstraite oblige chaque classe fille, comme Adulte ou Enfant, à définir sa propre version de la méthode, ce qui garantit que l'appel polymorphique dans affichage utilise toujours une méthode adaptée au type réel de l'objet.
  
