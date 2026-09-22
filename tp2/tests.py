@@ -74,7 +74,7 @@ class TestVillage(unittest.TestCase):
         self.assertIn(habitant, village1.get_habitants())
         self.assertIn(habitant, village2.get_habitants())
 
-        
+
 
 
 class TestHeritage(unittest.TestCase):
@@ -88,7 +88,7 @@ class TestHeritage(unittest.TestCase):
 
     def test_retraite_enfant(self):
         """Vérifie qu'un enfant ne peut pas calculer sa retraite."""
-        enfant = Enfant("Kasmi","Jasmine",12,"Rue diplome")
+        enfant = Enfant("Kasmi","Jasmine",7,"Rue diplome")
 
         self.assertIn("enfant",enfant.calcul_nombre_annee_avant_retraite())
 
